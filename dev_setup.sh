@@ -10,7 +10,7 @@ sudo dnf check-update -y
 sudo dnf install -y code
 sudo dnf install -y xclip
 echo "Generating SSH key..."
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f ~/.ssh/id_rsa -N ""
+ssh-keygen -t rsa -b 4096 -C "aydenjmason@gmail.com" -f ~/.ssh/id_rsa -N ""
 echo "Copying SSH key to clipboard..."
 xclip -selection clipboard < ~/.ssh/id_rsa.pub
 echo "Verifying installations..."
