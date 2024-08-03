@@ -22,7 +22,6 @@ cd ~/Documents/Repos
 
 # Update and install development tools and dependencies
 sudo dnf update -y
-sudo dnf groupinstall -y "Development Tools"
 sudo dnf install -y gcc-c++ cmake git raylib raylib-devel
 
 # Add Visual Studio Code repository and install VS Code
